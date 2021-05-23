@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">sms.nextgenbpo.in</domain>
+        <domain includeSubdomains="true">13.59.195.176</domain>
+        <domain includeSubdomains="true">103.16.101.52</domain>
+    </domain-config>
+
+</network-security-config>
