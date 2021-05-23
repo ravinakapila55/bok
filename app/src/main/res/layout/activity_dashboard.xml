@@ -751,7 +751,7 @@
                 <LinearLayout
                     android:id="@+id/ll_bottom"
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="@dimen/margin_50"
                     android:layout_below="@+id/main"
                     android:orientation="horizontal"
                     android:background="@drawable/primary_bg">

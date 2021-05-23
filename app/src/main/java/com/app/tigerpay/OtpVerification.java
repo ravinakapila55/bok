@@ -595,14 +595,13 @@ public class OtpVerification extends AppCompatActivity implements View.OnClickLi
                             startActivity(intent);
                             finish();
                         }
-                    } catch (JSONException e) {
+                    } catch (JSONException e)
+                    {
                         Log.e("exception-->", e.toString());
                     } catch (IOException e) {
-
+                        e.printStackTrace();
                     }
-
                     break;
-
                 }
 
         }
